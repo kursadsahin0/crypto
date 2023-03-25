@@ -1,0 +1,45 @@
+select{
+    width: 40%;
+    height: 40px;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    color: black;
+    margin :  0.2em 0;
+    padding: 0 1em;
+    border-radius: 10px;
+    border: none;
+    border: 4px solid #323546;
+   
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1001px) {
+  select{
+    width:50%
+  }
+  .input{
+    width: 50%;
+  }
+}
+@media screen and (max-width:851px) {
+    .text{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:651px) {
+    .text{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:529px) {
+   select{
+    width: 60%;
+   }
+}
