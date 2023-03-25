@@ -202,7 +202,14 @@ table tbody tr:nth-of-type(even) {
 }
 
 
-
+@media screen and (max-width:601px) {
+  .container{
+    margin-left: 0;
+  }
+  .container input{
+    width: 100%;
+  }
+}
 
 @media screen and (max-width:666px) {
   .upgrade{
