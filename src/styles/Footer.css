@@ -16,3 +16,8 @@ ul li:hover{
     margin-top: 5%;
     margin-bottom: 3%;
 }
+@media screen and (max-width:440px) {
+    ul li{
+        font-size: 10px;
+    }
+}
