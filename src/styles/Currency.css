@@ -15,8 +15,8 @@ select{
 }
 form{
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    
 }
 
 @media screen and (max-width:1001px) {
@@ -38,13 +38,9 @@ form{
     }
 }
 
-@media screen and (max-width:529px) {
-   select{
-    width: 60%;
-   }
-}
 @media screen and (max-width:601px) {
-   select {
-       width:100%;
-    }
+   select{
+    width: 100%;
+    margin-left: 0;
+   }
 }
