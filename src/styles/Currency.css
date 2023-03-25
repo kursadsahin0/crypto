@@ -43,3 +43,8 @@ form{
     width: 60%;
    }
 }
+@media screen and (max-width:601px) {
+   select {
+       width:100%;
+    }
+}
